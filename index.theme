@@ -108,9 +108,16 @@ MaxSize=32
 Type=Scalable
 
 [mimes/scalable]
-Size=128
+Size=256
 Context=MimeTypes
-MinSize=8
+Type=Scalable
+MinSize=16
+MaxSize=256
+
+[mimes/symbolic]
+Context=MimeTypes
+Size=16
+MinSize=1
 MaxSize=512
 Type=Scalable
 
